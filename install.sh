@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+
 cd $HOME/BotPHP
+
 installall(){
 sudo apt-get install
 python-properties-common
@@ -13,6 +15,7 @@ sudo apt-get install php7.2-curl php7.2-gd php7.2-json php7.2-mbstring php7.2-in
 installall
 
 screen -S bot
+
 php test.php
 
 
